@@ -1,0 +1,253 @@
+*{
+    font-family: sans-serif !important;
+}
+
+html {
+font-weight:400;
+font-size: 13px !important;
+}
+
+header{
+    background-color: #2b2b2b;
+    padding: 15px;
+    text-align: right;
+}
+
+span{
+    color: rgba(177, 177, 177, 0.3);
+}
+
+header *{
+    display: inline;
+}
+.headerEle{
+    color: white;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: right;
+    white-space: inherit;
+    /* padding-right: 10%; */
+    visibility: visible;
+    vertical-align: middle;
+    /* -webkit-text-size-adjust: 100%; */
+    /* background: transparent */
+}
+
+.flex-container{
+    display: block;
+    padding-top: 50px;
+    background-color: white;
+    height: auto;
+    padding-left: 48px;
+    /* overflow: hidden; */
+    /* background-image: url("\images\2ndInnings.png"); */
+}
+
+.form-container{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    
+}
+
+.login-container {
+    width: 100vm;
+    height: 100vh !important;
+    /* border-radius: 16px; */
+    padding-left: 48px;
+    text-align: center;
+    /* background-image: url('../images/logo-removebg-preview.png'); */
+    background-size: cover;
+    background-color: black;
+    color: #000;
+    /* float: center; */
+  }
+
+  .signup{
+    color: #121212 !important;
+  }
+
+  .login{
+    color: black;
+    padding: 30px 100px;
+    text-decoration: none;
+  }
+
+  .button-block {
+    width: 30% !important;
+    height: 30px !important;
+    margin-top:8px ;
+    background-color: #5df129;
+    text-transform: center;
+    border-radius: 3px;
+  }
+
+  #login-submit{
+    background-color: #5df129;
+    color: #121212;
+    font-weight: 10;
+  }
+
+  .mt-80{
+    margin-top: 80px !important;
+  }
+
+  .mt-50{
+    margin-top: 50px !important;
+  }
+
+  .userTxt{
+    color: #cbb26b !important;
+  }
+
+  .registerTxt{
+    color:#5df129 !important;
+  }
+
+  /* .container {
+    background-color: #FFFFFF;
+  } */
+
+    /* div {
+        display: block;
+    } */
+
+    input{
+        cursor: text;
+        transition: all 5000s ease-in-out 0s;
+        transition-property: background-color, color;
+        writing-mode: horizontal-tb !important;
+        text-rendering: auto;
+        z-index: 0;
+    }
+    .center {
+		margin: auto;
+		width: 50%;
+		border: 5px solid #FFFFFF;
+		padding: 10px;
+        text-align: center;
+	}
+
+    .input-control{
+        writing-mode: horizontal-tb !important;
+        text-rendering: auto;
+        cursor: text;
+        z-index: 0;
+    }
+    /* input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active {
+        transition: all 5000s ease-in-out 0s;
+        transition-property: background-color, color;
+        cursor: pointer;
+    } */
+    
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: sans-serif;
+background: #121212; /* fallback for old browsers */
+overflow-x: hidden;
+color: white;
+height: 100%;
+
+/* code to make all text unselectable */
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+
+/* Disables selector ring */
+body:not(.user-is-tabbing) button:focus,
+body:not(.user-is-tabbing) input:focus,
+body:not(.user-is-tabbing) select:focus,
+body:not(.user-is-tabbing) textarea:focus {
+outline: none;
+}
+
+/* ########################################################## */
+
+h1 {
+color: white;
+
+font-size: 35px;
+font-weight: 800;
+}
+
+.content-container {
+width: 500px;
+height: 350px;
+}
+
+.subtitle {
+font-size: 11px;
+
+color: rgba(177, 177, 177, 0.3);
+}
+
+input {
+border: none;
+border-bottom: solid rgb(143, 143, 143) 1px;
+margin-bottom: 30px;
+background: none;
+height: 35px;
+width: 300px;
+}
+
+.submit-btn {
+cursor: pointer;
+
+border: none;
+border-radius: 8px;
+
+box-shadow: 2px 2px 7px #38d39f70;
+
+background: #5ae529;
+color: rgba(255, 255, 255, 0.8);
+
+width: 80px;
+
+transition: all 1s;
+}
+
+.submit-btn:hover {
+color: rgb(255, 255, 255);
+
+box-shadow: none;
+}
+
+.upLogo img {
+    width: 150px !important;
+    max-height: 56px;
+    max-width: 100px;
+
+}
+
+.commonTitle {
+    font-size: 16px;
+    color: #000;
+    margin: 0px 0 15px 0;
+    font-weight: 600;
+    border-radius: 5px 5px 0 0;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container loginform{
+    background-color: #000;
+    background-image: url("https://i.ibb.co/2c9p3JH/backgroud-Img.png") !important;
+    width: auto;
+    opacity: 0.90;
+}
